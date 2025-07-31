@@ -802,3 +802,41 @@ input:checked + .slider:before {
   transform: translateX(26px);
 }
 
+/* Responsive untuk layar laptop kecil & tablet */
+@media (max-width: 1024px) {
+  .message__title {
+    font-size: 36px;
+  }
+
+  .message__text {
+    font-size: 16px;
+    padding: 0 30px;
+  }
+
+  .lamp {
+    zoom: 0.8;
+  }
+}
+
+/* Responsive untuk layar HP */
+@media (max-width: 768px) {
+  .message__title {
+    font-size: 28px;
+  }
+
+  .message__text {
+    font-size: 14px;
+    padding: 0 20px;
+  }
+
+  .lamp {
+    zoom: 0.6;
+  }
+
+  .switch-container {
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
